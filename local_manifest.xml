@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+     <!-- Remote -->
+     <remote name="github"
+     fetch="https://github.com" />
+     <remote name="me"
+     fetch="https://github.com/HinohArata" />
+     <remote name="private"
+     fetch="https://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@github.com" />
+
+     <remove-project name="android_vendor_lineage" />
+     <project path="vendor/lineage" name="android_vendor_lineage-ros" remote="me" revision="fourteen" />
+  
+     <!-- Trees -->
+     <project path="device/xiaomi/surya" name="device_xiaomi_surya" remote="private" revision="14-full" />
+     <project path="vendor/xiaomi/surya" name="vendor_xiaomi_surya" remote="me" revision="qpr3" />
+     <project path="kernel/xiaomi/surya" name="Shiryu-Kernel/kernel_xiaomi_surya" remote="private" revision="4.14" />
+  
+     <!-- Micam -->
+     <project path="vendor/xiaomi/surya-miuicamera" name="HinohArata/vendor_xiaomi_surya-miuicamera" remote="private" revision="14-tes" />
+     <project path="device/xiaomi/surya-miuicamera" name="HinohArata/device_xiaomi_surya-miuicamera" remote="private" revision="14-qpr3" />
+
+     <!-- Extras -->
+     <project path="device/xiaomi/surya/parts" name="HinohArata/parts" remote="private" revision="qpr3" />
+     <project path="vendor/private-keys/keys" name="HinohArata/keys" remote="private" revision="full" />
+ <!--
+     <project path="prebuilts/clang/host/linux-x86/clang-r487747c" name="android_prebuilts_clang_host_linux-x86_clang-r487747c" remote="cl" revision="14.0" clone-depth="1" />
+-->
+</manifest>
