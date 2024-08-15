@@ -8,7 +8,7 @@
      <remote name="me"
      fetch="https://github.com/HinohArata" />
      <remote name="private"
-     fetch="https://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@github.com" />
+     fetch="https://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@github.com" />
 
      <remove-project name="android_vendor_lineage" />
      <project path="vendor/lineage" name="android_vendor_lineage-ros" remote="me" revision="fourteen" />
