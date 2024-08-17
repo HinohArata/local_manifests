@@ -14,9 +14,9 @@
              sync-j="4" />
 
      <remote name="me"
-             fetch="https://github.com"
+             fetch="https://github.com/HinohArata"
              sync-c="true"
-             fetch="https://github.com/HinohArata" />
+             sync-j="4" />
 
      <remove-project path="vendor/lineage" />
   
