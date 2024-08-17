@@ -4,14 +4,44 @@
 
      <!-- Remote -->
      <remote name="jancok"
-     fetch="https://github.com" />
+             fetch="https://github.com"
+             sync-c="true"
+             sync-j="4" />
+
+     <remote name="asu"
+             fetch="https://gitlab.com"
+             sync-c="true"
+             sync-j="4" />
+
      <remote name="me"
-     fetch="https://github.com/HinohArata" />
+             fetch="https://github.com"
+             sync-c="true"
+             fetch="https://github.com/HinohArata" />
+
+     <remove-project path="vendor/lineage" />
   
      <!-- Trees -->
-<!--
+
+     <project path="vendor/lineage" name="android_vendor_lineage-ros" remote="me" revision="fourteen" />
+
+     <project path="device/xiaomi/surya" name="RisingOSS-devices/device_xiaomi_surya" remote="jancok" revision="14-full" />
+     
      <project path="vendor/xiaomi/surya" name="vendor_xiaomi_surya" remote="me" revision="qpr3" />
--->
+     
+     <project path="device/xiaomi/surya/parts" name="parts" revision="qpr3" remote="me" />
+
+     <project path="vendor/xiaomi/surya-miuicamera" name="vendor_xiaomi_surya-miuicamera" revision="14-tes" remote="me" />
+
+     <project path="device/xiaomi/surya-miuicamera" name="device_xiaomi_surya-miuicamera" revision="14-qpr3" remote="me" />
+
+     <project path="vendor/private-keys/keys" name="keys" revision="full" remote="me" />
+
+     <project path="firmware/xiaomi/surya" name="HinohArata/firmware_xiaomi_surya" revision="tiramisu" remote="asu" />
+
+     <project path="kernel/xiaomi/surya" name="Shiryu-Kernel/kernel_xiaomi_surya" revision="qpr3" remote="jancok" />
+
+     <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" revision="lineage-21" remote="jancok" />
+     
 
  <!--
      <project path="prebuilts/clang/host/linux-x86/clang-r487747c" name="android_prebuilts_clang_host_linux-x86_clang-r487747c" remote="cl" revision="14.0" clone-depth="1" />
