@@ -22,6 +22,8 @@
   
      <!-- Trees -->
 
+     <project path="hardware/lineage/interfaces" name="HinohArata/android_hardware_lineage_interfaces" revision="lineage-21.0" remote="jancok" />
+
      <project path="vendor/lineage" name="android_vendor_lineage-ros" remote="me" revision="fourteen" />
 
      <project path="device/xiaomi/surya" name="RisingOSS-devices/device_xiaomi_surya" remote="jancok" revision="14-full" />
