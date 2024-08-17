@@ -18,9 +18,11 @@
              sync-c="true"
              sync-j="4" />
 
+<!--
      <remove-project path="vendor/lineage" />
      <remove-project path="hardware/lineage/interfaces" />
-  
+
+-->
      <!-- Trees -->
 
 <!--
